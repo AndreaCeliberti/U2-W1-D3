@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  color: #612407;
+}
+
+body {
+  background-color: #ffffff;
+}
+.sidebar,
+.card1,
+.card2,
+.card3,
+.card4,
+.article {
+  background-color: #faf7e3;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  border-radius: 20%;
+}
+.article {
+  border-radius: 25px;
+}
