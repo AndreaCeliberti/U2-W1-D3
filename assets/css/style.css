@@ -9,8 +9,8 @@ body {
   background-color: #ffffff;
 }
 .beelogo {
-  width: 100px;
-  height: 100px;
+  width: 30px;
+  height: 30px;
 }
 .sidebar,
 .card1,
@@ -22,9 +22,39 @@ body {
 }
 .sidebar {
   border-radius: 50px;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5px;
+  padding: 4px;
 }
-.ourhoney .tracehoney .shop .facilities .contact {
+.ourhoney,
+.tracehoney,
+.shop,
+.facilities,
+.contact {
   background-color: #f3df85;
+  border-radius: 50px;
+}
+.ourhoney,
+.tracehoney,
+.facilities,
+.contact {
+  display: flex;
+  width: 20%;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+}
+.shop {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  font-size: 2rem;
+  padding-inline: 12px;
+  height: 60px;
 }
 .cards {
   display: flex;
@@ -46,10 +76,33 @@ body {
   height: 150px;
   width: 100%;
 }
-.article {
-  border-radius: 25px;
-}
 .button {
   background-color: #f3df85;
   text-align: center;
+  border-radius: 50px;
+  width: 50%;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+
+  .description {
+    display: flex;
+    align-items: center;
+    padding-inline: 1rem;
+  }
+  .description p strong {
+    font-size: 1.2rem;
+  }
+  .price {
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+  }
+  .product {
+    border-radius: 15%;
+    text-align: center;
+    overflow: hidden;
+  }
 }
