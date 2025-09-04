@@ -21,14 +21,12 @@ body {
   background-color: #faf7e3;
 }
 .sidebar {
-  border-radius: 50px;
   height: 75px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 5px;
-  padding: 4px;
 }
 .ourhoney,
 .tracehoney,
@@ -52,7 +50,7 @@ body {
   display: flex;
   align-items: center;
   width: 140px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding-inline: 12px;
   height: 60px;
 }
@@ -113,4 +111,6 @@ h5 {
 .articledesctription {
   padding-inline: 10px;
   padding-top: 3px;
+  overflow: hidden;
+  margin: 1rem;
 }
